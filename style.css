@@ -1,15 +1,18 @@
 body {
- background-color: rgb(153, 153, 153);
+ background-color: rgb(46, 46, 46);
  justify-content: center;
  margin: 0;
- align-items: center ;
+ align-items: center;
 }
 
-h1{
+h2 {
+ margin-top: 20px;
+ color: white;
  text-align: center;
- font-size: 4rem;
- font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: 3rem;
+ font-family:bold , Arial, sans-serif;
 }
+
 .calcul {
  border-radius: 15Px;
  max-width: 500px;
@@ -23,8 +26,8 @@ h1{
  font-size: 5rem;
  background-color: rgb(27, 26, 26);
  border: none;
-text-align: left;
-color: white;
+ text-align: left;
+ color: white;
 }
 
 button {
@@ -53,11 +56,12 @@ button:active {
  padding: 25px;
 }
 
- 
-.a{
+
+.a {
  color: black;
  background-color: rgb(255, 255, 255);
 }
+
 .ac {
  color: black;
  background-color: rgb(135, 62, 6);
